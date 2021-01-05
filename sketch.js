@@ -11,12 +11,6 @@ var pendulum1, pendulum2, pendulum3, pendulum4, pendulum5;
 var sling1, sling2, sling3, sling4, sling5;
 var cMouse
 
-
-function preload()
-{
-	backgroundIMG = loadImage("Universe.jpg");
-}
-
 function setup() {
 	canvas = createCanvas(800,800);
 	engine = Engine.create();
